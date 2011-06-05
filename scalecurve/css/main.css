@@ -141,3 +141,7 @@ p.author, p.date {
     z-index: 20;
     opacity: 0.9;
 }
+
+a, a:hover, a:visited {
+    color: #fff;    
+}
