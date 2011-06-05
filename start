@@ -1,0 +1,6 @@
+#! /bin/sh
+
+cp "template/project.html" "$1.html"
+cp -r "template" "$1/"
+rm "$1/project.html"
+echo "\033[101m** Happy hacking! ;-)\033[0m"
