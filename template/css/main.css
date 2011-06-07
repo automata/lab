@@ -110,26 +110,10 @@ p.author, p.date {
 }
 
 a, a:visited, a:active {
-    display: inline-block;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-decoration: none;
-    background: #fff;
-    color: #000;
-    padding: 0px 0.2em;
-    border: #000 1px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -o-border-radius: 2px;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    text-decoration: underline;
+    color: #fff;
 }
 
 a:hover {
-    background: #000;
-    color: #fff;
-    border: #000 1px solid;
+    text-decoration: none;
 }
