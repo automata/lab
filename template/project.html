@@ -65,11 +65,30 @@
         <a href="http://github.com/automata"><img src="../../icon_git.png" /></a><br />
       </div>
       
-      <div id="feedback_box"> <img id="feedback_icon" src="../../icon_feedback.png" />
+      <div id="feedback_box">
+        <img id="feedback_icon" src="../../icon_feedback.png" />
+
+        <div id="sharing">
+          <p>
+            This demo uses some new web features like the <a href="https://wiki.mozilla.org/Audio_Data_API">Audio Data API</a> 
+            and 
+            <a href="http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html">Web Audio API</a>. 
+            To enjoy the experiment please install
+            <a href="http://getfirefox.com">Mozilla Firefox 4.0</a> or
+            <a href="http://google.com/chrome">Google Chrome</a> (type <i>about:flags</i> on your Chrome URL bar and set <i>Web Audio</i> to <i>on</i>).
+            </p>
+
+          <p>If you liked, please share your love!</p>
+	  <iframe id="facebook_button" src="http://www.facebook.com/plugins/like.php?href=http://automata.cc/lab/PROJECT&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe><div id="retweet_button"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://automata.cc/lab/PROJECT" data-text="PROJECT. new demo by @vilsonvieira" data-count="horizontal" data-related="vilsonvieira">Tweet</a>
+	    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	  </div>
+        </div>
         <div id="disqus_thread"></div>
 
         <script type="text/javascript">
           var disqus_shortname = 'automata';
+          // var disqus_identifier = 'automata_lab_PROJECT';
+          // var disqus_url = 'http://automata.cc/lab/PROJECT';
           (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
           dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
@@ -78,10 +97,6 @@
         </script>
 
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      </div>
-
-      <div id="info">
-        Having trouble with this demo? Please install <a href="http://getfirefox.com">Mozilla Firefox 4.0</a> ou <a href="http://google.com/chrome">Google Chrome</a>
       </div>
 
     </div>
