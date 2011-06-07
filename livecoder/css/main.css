@@ -58,33 +58,6 @@ p.author, p.date {
     margin: 10px;
 }
 
-#disqus_thread a, a:visited, a:active {
-    display: inline;
-    font-size: medium;
-    line-height: normal;
-    white-space: normal;
-    word-wrap: break-word;
-    text-decoration: none;
-    font-style: normal;
-    max-width: none;
-    width: auto;
-    background: none repeat scroll 0 0 transparent;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    text-indent: 0;
-    float: none;
-    border: 0 none;
-    border-radius: none;
-    -moz-border-radius: none;
-    -webkit-border-radius: none;
-    -o-border-radius: none;
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -o-transition: none;
-}
-
 #icons_box {
     background: none;
     top: 10px;
