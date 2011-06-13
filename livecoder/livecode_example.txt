@@ -1,0 +1,24 @@
+~ saw:Saw -> filter:LowPassFilter -> gain:Gain -> output:Output
+~ frequencyLFO:Sine -> filterMA:MulAdd -> filter:LowPassFilter
+~ env:ADSREnvelope -> gain:Gain
+
+! frequencyMA.frequency = [55 55 98 98 73 73 98 98]^Infinity
+! frequencyLFO.frequency = [2 4 6 8]^Infinity
+! env.gate = [1 0]^Infinity
+
+---
+
+linhas começando com ~ são de sinal (conexão de nós dsp)
+linhas começando com ! são de controle (de parâmetros dos nós)
+
+análise dos sinais:
+0. mantém sempre um dicionário de símbolos anterior
+1. cria dicionário de símbolos atual: {saw: {obj: new Saw, state: updated ou removed ou created ou stable}, ...}
+   para definir o state:
+      se o id não existia anteriormente => created
+      se o id existia mas a instancia é nova => updated E CRIA NOVA INSTANCIA
+      se o id antigo não existe mais na atual => removed 
+      senão => stable E NÃO FAZ NADA
+2. cria conexões
+
+nota: tudo isso pode estar em um AudioletGroup!!!
