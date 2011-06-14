@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <title>automata lab</title>
+    <title>automata / lab / hear-the-img</title>
 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <meta name="author" content="Vilson Vieira"/>
@@ -30,28 +30,38 @@
     <script src="vendor/Audiolet/src/mootools/mootools-core-1.3-full-nocompat.js"></script>
     <script src="vendor/Audiolet/src/audiolet/Audiolet.min.js"></script>
 
-    <!-- jquery UI -->
-    <link type="text/css" href="vendor/jquery-ui-themes/smoothness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />     
-    <script type="text/javascript" src="vendor/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="vendor/jquery-ui-1.8.13.custom.min.js"></script>
-
-    <!-- processing.js -->
-    <script type="text/javascript" src="vendor/processing/processing-1.2.1.min.js"></script>
- 
     <!-- *** hear-the-img *** -->
     <link type="text/css" rel="stylesheet" href="hear-the-img/css/main.css" />
     <script type="text/javascript" src="hear-the-img/js/main.js"></script>
 
   </head>
-  <body onload="draw();">
+  <body>
     <div id="content">
 
       <div id="main">
-        <canvas id="canvas" width="100" height="100"></canvas>
-        <div id="box" style="width: 100px; height: 100px;">
+        <img id="monalisa" src="hear-the-img/img/monalisa.jpg" onclick="play('monalisa');" />
+        <img id="mondrian" src="hear-the-img/img/mondrian.jpg" onclick="play('mondrian');" />
+        <img id="picasso" src="hear-the-img/img/picasso.jpg" onclick="play('picasso');" />
+        <img id="roy" src="hear-the-img/img/roy.jpg" onclick="play('roy');" />
+        <img id="brice" src="hear-the-img/img/brice.jpg" onclick="play('brice');" />
+        <img id="pollock" src="hear-the-img/img/pollock.jpg" onclick="play('pollock');" />
+        <img id="pollock2" src="hear-the-img/img/pollock2.jpg" onclick="play('pollock2');" />
+        <img id="stella2" src="hear-the-img/img/stella2.jpg" onclick="play('stella2');" />
+        <img id="stella3" src="hear-the-img/img/stella3.jpg" onclick="play('stella3');" />
+        <img id="stella4" src="hear-the-img/img/stella4.jpg" onclick="play('stella4');" />
+        <img id="stella5" src="hear-the-img/img/stella5.jpg" onclick="play('stella5');" />
+        <img id="stella6" src="hear-the-img/img/stella6.jpg" onclick="play('stella6');" />
+        <img id="stella7" src="hear-the-img/img/stella7.jpg" onclick="play('stella7');" />
+        <img id="hofmann" src="hear-the-img/img/hofmann.jpg" onclick="play('hofmann');" />
+        <img id="monet" src="hear-the-img/img/monet.jpg" onclick="play('monet');" />
+        <img id="theo" src="hear-the-img/img/theo.jpg" onclick="play('theo');" />
+
+        <div id="box">
+          <canvas id="canvas" width="100" height="100"></canvas>
+          <p id="about"></p>
         </div>
       </div>
-<!--
+
       <div id="icons_box">
         <a href="http://automata.cc"><img src="../../icon_automata.png" /></a><br />
         <a href="http://twitter.com/aut0mata"><img src="../../icon_twitter.png" /></a><br />
@@ -93,6 +103,6 @@
       </div>
 
     </div>
--->
+
   </body>
 </html>
