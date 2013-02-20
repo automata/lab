@@ -1,6 +1,5 @@
 html,body {
-    background: -moz-radial-gradient(50% 50%, farthest-side, #708a9f, #3e576f);
-    background: -webkit-radial-gradient(50% 50%, farthest-side, #708a9f, #3e576f);
+    background: #fff;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -10,12 +9,7 @@ html,body {
     height: 100%;
 }
 #main {
-    height: 480px;
-    left: 50%;
-    margin: -240px 0 0 -320px;
-    position: absolute;
-    top: 50%;
-    width: 640px;
+
 }
 
 /* to disqus and icon bar */
