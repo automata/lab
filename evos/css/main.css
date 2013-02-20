@@ -1,0 +1,119 @@
+html,body {
+    background: -moz-radial-gradient(50% 50%, farthest-side, #708a9f, #3e576f);
+    background: -webkit-radial-gradient(50% 50%, farthest-side, #708a9f, #3e576f);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#main {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}
+
+/* to disqus and icon bar */
+
+#feedback_box {
+    margin-right: -510px;    
+    position: fixed;
+    top: 177px;
+    height: 400px;
+    right: 0;
+    width: 500px;
+    background: #000;
+    color: #fff;
+    padding-left: 10px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    font: 300 .8em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+#feedback_box:hover {
+    margin-right: 0px;
+}
+
+#feedback_box #feedback_icon {
+    border: none;
+    left:-45px;
+    position: absolute;
+}
+
+p.author, p.date {
+    color: #666;
+}
+
+#disqus_thread {
+    padding: 10px;
+    overflow: auto;
+    height: 350px;
+    margin: 10px;
+}
+
+#icons_box {
+    background: none;
+    top: 10px;
+    color: #999999;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    right: -15px;
+    text-transform: lowercase;
+    z-index: 10;
+}
+
+#icons_box img {
+    border: none;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+#icons_box a, a:hover, a:visited {
+    background: none;
+    border: 0 none;
+    border-radius: none;
+    -moz-border-radius: none;
+    -webkit-border-radius: none;
+    -o-border-radius: none;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+}
+
+#icons_box img:hover {
+    transform: translate(-10px, 0px);
+    -webkit-transform: translate(-10px, 0px);
+    -moz-transform: translate(-10px, 0px);
+    -o-transform: translate(-10px, 0px);
+    z-index: 20;
+    opacity: 0.9;
+}
+
+#sharing {
+    padding: 10px;
+    background-color: #222;
+}
+
+a, a:visited, a:active {
+    text-decoration: underline;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
